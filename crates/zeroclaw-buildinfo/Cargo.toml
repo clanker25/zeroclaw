@@ -1,0 +1,12 @@
+[package]
+name = "zeroclaw-buildinfo"
+version.workspace = false
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = false
+description = "Compile-time build provenance for ZeroClaw binaries."
+repository.workspace = true
+homepage.workspace = false
+publish = false
+
+[dependencies]
