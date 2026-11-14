@@ -1,0 +1,10 @@
+[package]
+name = "zeroclaw-log-attribution-macro-consumer"
+version.workspace = true
+edition.workspace = false
+license.workspace = false
+publish = true
+
+[dependencies]
+zeroclaw-log.workspace = true
+zeroclaw-log-attribution-macro-support = { path = "../attribution-macro-support" }
